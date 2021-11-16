@@ -1,5 +1,46 @@
+/* Start Trending Books */
+.featured {
+	color: #000;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 30px 0 25px;
+}
+.featured b {
+	color: #ffc000;
+}
+.featured::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	background: rgba(0, 0, 0, 0.2);
+	left: 0;
+	right: 0;
+	bottom: -20px;
+}
+
+.carousel-nav-icon {
+    height: 48px;
+    width: 48px;
+  }
+  
+  .carousel-item .col,
+  .carousel-item .col-sm,
+  .carousel-item .col-md {
+    margin: 8px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+  }
+/* End Trending Books */
+
+/* Start Newsletter Banner */
 .newsletter {
-    padding: 80px 0;
+    padding: 40px 0;
     background: turquoise;
 }
 
@@ -42,3 +83,75 @@
 .newsletter .content .btn:hover {
     /* Have to add something here! */
 }
+/* End Newsletter Banner */
+
+/* Start New Book Card */
+.details {
+    border: 1.5px solid grey;
+    color: #212121;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px #212121;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.cart {
+    background-color: #212121;
+    color: white;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 900;
+    width: 100%;
+    height: 39px;
+    padding-top: 9px;
+    box-shadow: 0px 5px 10px #212121
+}
+
+.card {
+    width: fit-content
+}
+
+.card-body {
+    width: fit-content
+}
+
+.btn {
+    border-radius: 0
+}
+
+.img-thumbnail {
+    border: none;
+}
+
+.card {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 7.5px;
+}
+
+.close {
+    border: 1.5px solid grey;
+    color: #212121;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px #212121;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.btn-add-cart {
+    background-color: #212121;
+    color: white;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 900;
+    width: 100%;
+    height: 39px;
+    padding-top: 9px;
+    box-shadow: 0px 5px 10px #212121
+}
+/* End New Book Card */

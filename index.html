@@ -67,7 +67,7 @@
     <!-- End Navigation Menu -->
 
     <!-- Start Carousel -->
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade banner" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -130,16 +130,16 @@
                  <div class="carousel-inner">
                     <div class="carousel-item active">
                        <div class="row">
-                          <img src="img/harrypotter1.png" class="col-12 col-md d-flex align-items-center justify-content-center" alt="">
-                          <img src="img/harrypotter2.png" class="col-12 col-md d-flex align-items-center justify-content-center" alt="">
-                          <img src="img/harrypotter3.png" class="col-12 col-md d-flex align-items-center justify-content-center" alt="">
+                          <img src="img/trending1.jpg" class="col-12 col-md d-flex align-items-center justify-content-center" alt="">
+                          <img src="img/trending2.jpg" class="col-12 col-md d-flex align-items-center justify-content-center" alt="">
+                          <img src="img/trending3.jpg" class="col-12 col-md d-flex align-items-center justify-content-center" alt="">
                        </div>
                     </div>
                     <div class="carousel-item">
                        <div class="row">
-                        <img src="img/harrypotter1.png" class="col-12 col-md d-flex align-items-center justify-content-center" alt="">
-                        <img src="img/harrypotter2.png" class="col-12 col-md d-flex align-items-center justify-content-center" alt="">
-                        <img src="img/harrypotter3.png" class="col-12 col-md d-flex align-items-center justify-content-center" alt="">
+                        <img src="img/trending4.jpg" class="col-12 col-md d-flex align-items-center justify-content-center" alt="">
+                        <img src="img/trending5.jpg" class="col-12 col-md d-flex align-items-center justify-content-center" alt="">
+                        <img src="img/trending6.jpg" class="col-12 col-md d-flex align-items-center justify-content-center" alt="">
                        </div>
                     </div>
                  </div>
@@ -192,16 +192,18 @@
                         <h5 class="card-title font-weight-bold">The Westing Game</h5>
                         <h6 class="card-author font-weight-bold">Ellen Raskin</h6>
                         <p class="card-text">$7.99</p> 
-                        <button type="button" class="btn details px-auto" data-bs-toggle="modal" data-bs-target="#detailModal">view details</button>
+                        <button type="button" class="btn details px-auto" data-bs-toggle="modal" data-bs-target="#detailModal1">view details</button>
 
                         <!-- Book 1 Modal -->
-                        <div class="modal right fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="detailModalLabel">
+                        <div class="modal right fade" id="detailModal1" tabindex="-1" role="dialog" aria-labelledby="detailModalLabel">
                             <div class="modal-dialog" role="document">
                               <div class="modal-content">
                                 <div class="modal-header">
                                   <h5 class="modal-title text-center" id="detailModalLabel">The Westing Game</h5>
                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                  <h6 class="modal-title text-start" id="detailModalLabel">Ellen Raskin</h6>
+                                </div>
+                                <div class="modal-body">
+                                    <img class='mx-auto img-thumbnail book-cover' src="img/new-book1.jpg" width="50%" height="50%" />
                                 </div>
                                 <div class="modal-body text-start">
                                     This highly inventive mystery involves sixteen people who are invited to the reading of Samuel W. Westing's will. 
@@ -224,27 +226,32 @@
         <!-- Book 2 -->
         <div class='col-4'>
             <div class="card mx-auto col-md-3 col-10 mt-5"> 
-                <img class='mx-auto img-thumbnail book-cover' src="img/new-book1.jpg" width="50%" height="50%" />
+                <img class='mx-auto img-thumbnail book-cover' src="img/new-book2.jpg" width="50%" height="50%" />
                 <div class="card-body text-center mx-auto">
                     <div class='cvp'>
-                        <h5 class="card-title font-weight-bold">The Westing Game</h5>
-                        <h6 class="card-author font-weight-bold">Ellen Raskin</h6>
-                        <p class="card-text">$7.99</p> 
-                        <button type="button" class="btn details px-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">view details</button>
+                        <h5 class="card-title font-weight-bold">The Island Child</h5>
+                        <h6 class="card-author font-weight-bold">Molly Aitken</h6>
+                        <p class="card-text">$26.95</p> 
+                        <button type="button" class="btn details px-auto" data-bs-toggle="modal" data-bs-target="#detailModal2">view details</button>
 
-                        <!-- Book 2 Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
+                        <!-- Book 1 Modal -->
+                        <div class="modal right fade" id="detailModal2" tabindex="-1" role="dialog" aria-labelledby="detailModalLabel">
+                            <div class="modal-dialog" role="document">
                               <div class="modal-content">
                                 <div class="modal-header">
-                                  <h5 class="modal-title text-center" id="exampleModalLabel">The Westing Game</h5>
-                                  <h6 class="modal-subtitle text-center" id="exampleModalLabel">Ellen Raskin</h6>
+                                  <h5 class="modal-title text-center" id="detailModalLabel">The Island Child</h5>
                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
+                                <div class="modal-body">
+                                    <img class='mx-auto img-thumbnail book-cover' src="img/new-book2.jpg" width="50%" height="50%" />
+                                </div>
                                 <div class="modal-body text-start">
-                                    This highly inventive mystery involves sixteen people who are invited to the reading of Samuel W. Westing's will. 
-                                    They could become millionaires-it all depends on how they play the tricky and dangerous Westing game, a game involving blizzards, burglaries, 
-                                    and bombings! Ellen Raskin has created a remarkable cast of characters in a puzzle-knotted, word-twisting plot filled with humor, intrigue, and suspense.
+                                    Oona grew up on the island of Inis: a wind-blasted rock off the coast of Ireland where the men went out on fishing boats and the women tended turf fires; 
+                                    where the only book was the Bible; and where girls stayed at home until they became mothers themselves. The island was a gift for some, a prison for others.
+                                    Even as a child, Oona knew she wanted to leave, but she never could have anticipated the tumultuous turn of events that would ultimately compel her to flee. 
+                                    Now, after twenty years—after Oona has forged a new, very different life for herself—her daughter vanishes, forcing Oona to face her past in order, finally, 
+                                        to be free of it. Heralding a singularly gifted new voice in fiction, The Island Child is a timeless story of birth and betrayal, storms and shipwrecks and fairy children, 
+                                        and the weight of long-buried secrets.
                                 </div>
                                 <div class="modal-footer">
                                   <button type="button" class="btn close" data-bs-dismiss="modal">Close</button>
@@ -262,27 +269,32 @@
         <!-- Book 3 -->
         <div class='col-4'>
             <div class="card mx-auto col-md-3 col-10 mt-5"> 
-                <img class='mx-auto img-thumbnail book-cover' src="img/new-book1.jpg" width="50%" height="50%" />
+                <img class='mx-auto img-thumbnail book-cover' src="img/new-book3.jpg" width="50%" height="50%" />
                 <div class="card-body text-center mx-auto">
                     <div class='cvp'>
-                        <h5 class="card-title font-weight-bold">The Westing Game</h5>
-                        <h6 class="card-author font-weight-bold">Ellen Raskin</h6>
-                        <p class="card-text">$7.99</p> 
-                        <button type="button" class="btn details px-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">view details</button>
+                        <h5 class="card-title font-weight-bold">Crossings</h5>
+                        <h6 class="card-author font-weight-bold">Alex Landragin</h6>
+                        <p class="card-text">$14.99</p> 
+                        <button type="button" class="btn details px-auto" data-bs-toggle="modal" data-bs-target="#exampleModal3">view details</button>
 
                         <!-- Book 3 Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                               <div class="modal-content">
                                 <div class="modal-header">
-                                  <h5 class="modal-title text-center" id="exampleModalLabel">The Westing Game</h5>
-                                  <h6 class="modal-subtitle text-center" id="exampleModalLabel">Ellen Raskin</h6>
+                                  <h5 class="modal-title text-center" id="exampleModalLabel">Crossings</h5>
                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
+                                <div class="modal-body">
+                                    <img class='mx-auto img-thumbnail book-cover' src="img/new-book3.jpg" width="50%" height="50%" />
+                                </div>
                                 <div class="modal-body text-start">
-                                    This highly inventive mystery involves sixteen people who are invited to the reading of Samuel W. Westing's will. 
-                                    They could become millionaires-it all depends on how they play the tricky and dangerous Westing game, a game involving blizzards, burglaries, 
-                                    and bombings! Ellen Raskin has created a remarkable cast of characters in a puzzle-knotted, word-twisting plot filled with humor, intrigue, and suspense.
+                                    On the brink of the Nazi occupation of Paris, a German-Jewish bookbinder stumbles across a manuscript called Crossings. 
+                                    It has three narratives, each as unlikely as the next. And the narratives can be read one of two ways: either straight through or according to an alternate chapter sequence.
+                                    The first story in Crossings is a never-before-seen ghost story by the poet Charles Baudelaire, penned for an illiterate girl. 
+                                    Next is a noir romance about an exiled man, modeled on Walter Benjamin, whose recurring nightmares are cured when he falls in love with a storyteller who draws him into a dangerous intrigue of rare manuscripts, 
+                                        police corruption, and literary societies. Finally, there are the fantastical memoirs of a woman-turned-monarch whose singular life has spanned seven generations.
+                                    With each new chapter, the stunning connections between these seemingly disparate people grow clearer and more extraordinary. Crossings is an unforgettable adventure full of love, longing and empathy.
                                 </div>
                                 <div class="modal-footer">
                                   <button type="button" class="btn close" data-bs-dismiss="modal">Close</button>

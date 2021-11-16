@@ -169,8 +169,8 @@
                         <div class="input-group">
                             <input type="email" class="form-control" placeholder="Enter your email">
                             <span class="input-group-btn">
-                <button class="btn" type="submit">Join Now</button>
-              </span>
+                                <button class="btn" type="submit">Join Now</button>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -180,17 +180,43 @@
     <!-- End Newsletter Subscription Banner -->
 
     <!-- Start New Book Card -->
-    <h2 class="featured">New <b>Books</b></h2>
+    <h2 class="new">New <b>Books</b></h2>
 
     <!-- Book 1 -->
     <div class="row justify-content-around">
         <div class='col-4'>
             <div class="card mx-auto col-md-3 col-10 mt-5"> 
-                <img class='mx-auto img-thumbnail' src="img/new-book1.jpg" width="50%" height="50%" />
+                <img class='mx-auto img-thumbnail book-cover' src="img/new-book1.jpg" width="50%" height="50%" />
                 <div class="card-body text-center mx-auto">
                     <div class='cvp'>
                         <h5 class="card-title font-weight-bold">The Westing Game</h5>
-                        <p class="card-text">$7.99</p> <a href="#" class="btn details px-auto">view details</a><br /> <a href="#" class="btn cart px-auto">ADD TO CART</a>
+                        <h6 class="card-author font-weight-bold">Ellen Raskin</h6>
+                        <p class="card-text">$7.99</p> 
+                        <button type="button" class="btn details px-auto" data-bs-toggle="modal" data-bs-target="#detailModal">view details</button>
+
+                        <!-- Book 1 Modal -->
+                        <div class="modal right fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="detailModalLabel">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title text-center" id="detailModalLabel">The Westing Game</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  <h6 class="modal-title text-start" id="detailModalLabel">Ellen Raskin</h6>
+                                </div>
+                                <div class="modal-body text-start">
+                                    This highly inventive mystery involves sixteen people who are invited to the reading of Samuel W. Westing's will. 
+                                    They could become millionaires-it all depends on how they play the tricky and dangerous Westing game, a game involving blizzards, burglaries, 
+                                    and bombings! Ellen Raskin has created a remarkable cast of characters in a puzzle-knotted, word-twisting plot filled with humor, intrigue, and suspense.
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn close" data-bs-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-add-cart">ADD TO CART</button>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+ 
+                        <a href="#" class="btn cart px-auto">ADD TO CART</a>
                     </div>
                 </div>
             </div>
@@ -198,11 +224,37 @@
         <!-- Book 2 -->
         <div class='col-4'>
             <div class="card mx-auto col-md-3 col-10 mt-5"> 
-                <img class='mx-auto img-thumbnail' src="img/new-book1.jpg" width="50%" height="50%" />
+                <img class='mx-auto img-thumbnail book-cover' src="img/new-book1.jpg" width="50%" height="50%" />
                 <div class="card-body text-center mx-auto">
                     <div class='cvp'>
                         <h5 class="card-title font-weight-bold">The Westing Game</h5>
-                        <p class="card-text">$7.99</p> <a href="#" class="btn details px-auto">view details</a><br /> <a href="#" class="btn cart px-auto">ADD TO CART</a>
+                        <h6 class="card-author font-weight-bold">Ellen Raskin</h6>
+                        <p class="card-text">$7.99</p> 
+                        <button type="button" class="btn details px-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">view details</button>
+
+                        <!-- Book 2 Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title text-center" id="exampleModalLabel">The Westing Game</h5>
+                                  <h6 class="modal-subtitle text-center" id="exampleModalLabel">Ellen Raskin</h6>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-start">
+                                    This highly inventive mystery involves sixteen people who are invited to the reading of Samuel W. Westing's will. 
+                                    They could become millionaires-it all depends on how they play the tricky and dangerous Westing game, a game involving blizzards, burglaries, 
+                                    and bombings! Ellen Raskin has created a remarkable cast of characters in a puzzle-knotted, word-twisting plot filled with humor, intrigue, and suspense.
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn close" data-bs-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-add-cart">ADD TO CART</button>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+ 
+                        <a href="#" class="btn cart px-auto">ADD TO CART</a>
                     </div>
                 </div>
             </div>
@@ -227,7 +279,7 @@
                                   <h6 class="modal-subtitle text-center" id="exampleModalLabel">Ellen Raskin</h6>
                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body text-left">
+                                <div class="modal-body text-start">
                                     This highly inventive mystery involves sixteen people who are invited to the reading of Samuel W. Westing's will. 
                                     They could become millionaires-it all depends on how they play the tricky and dangerous Westing game, a game involving blizzards, burglaries, 
                                     and bombings! Ellen Raskin has created a remarkable cast of characters in a puzzle-knotted, word-twisting plot filled with humor, intrigue, and suspense.
@@ -239,8 +291,7 @@
                               </div>
                             </div>
                         </div>
-
-                        <br /> 
+ 
                         <a href="#" class="btn cart px-auto">ADD TO CART</a>
                     </div>
                 </div>

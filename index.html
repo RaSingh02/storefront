@@ -15,7 +15,7 @@
     <!-- Start Navigation Menu -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid justify-content-start">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <img src="img/logo.png" class="logo" alt="brand-icon" width="75px" height="75px">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -37,6 +37,9 @@
                             <li><a class="dropdown-item" href="#">The Westing Game</a></li>
                             <li><a class="dropdown-item" href="#">The Island Child</a></li>
                             <li><a class="dropdown-item" href="#">Crossings</a></li>
+                            <li><a class="dropdown-item" href="#">The Holiday Swap</a></li>
+                            <li><a class="dropdown-item" href="#">Tom Clancy Chain of Command</a></li>
+                            <li><a class="dropdown-item" href="#">Treasures Lost, Treasures Found</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -72,6 +75,9 @@
                             <li><a class="dropdown-item" href="#">Ellen Raskin</a></li>
                             <li><a class="dropdown-item" href="#">Molly Aitken</a></li>
                             <li><a class="dropdown-item" href="#">Alex Landragin</a></li>
+                            <li><a class="dropdown-item" href="#">Maggie Knox</a></li>
+                            <li><a class="dropdown-item" href="#">Marc Cameron</a></li>
+                            <li><a class="dropdown-item" href="#">Nora Roberts</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -83,7 +89,7 @@
                     </svg>
                     Cart
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                      3
+                      0
                     </span>
                 </button>
             </div>
@@ -93,42 +99,59 @@
 
     <!-- Start Carousel -->
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade banner" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/external-content.duckduckgon.com.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                </div>
+            <div class="carousel-item active" data-bs-interval="10000">
+                <div class="d-md-flex w-100">
+                    <div class="deal-img text-center">
+                      <img src="img/book-deal1.png" alt="Image" class="img-fluid" height="50%" width="50%">
+                    </div>
+                    <div class="banner-text">
+                      <h2 class="text-center">Come For The Book, Leave With The Knowledge</h2>
+                      <p class="banner-p">
+                        Holiday season is upon us! We have restocked our entire collection just in time. Get the gift that your
+                        love ones will cherish! All orders from now until December 15th will arrive before Christmas.
+                      </p>
+                    </div>
+                  </div>
             </div>
-            <div class="carousel-item">
-                <img src="img/external-content.duckducbbkgo.com.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
+            <div class="carousel-item" data-bs-interval="50000">
+                <div class="d-md-flex w-100">
+                    <div class="deal-img text-center">
+                      <img src="img/book-deal2.png" alt="Image" class="img-fluid" height="56%" width="56%">
+                    </div>
+                    <div class="banner-text">
+                      <h2 class="text-center">Revisit old classics!</h2>
+                      <p class="banner-p">
+                        Take a trip down nostaliga lane with this classic. The Hunger Games trilogy is a great series to get
+                        immersed within. Suzanne Collins creates a detailed and well-explored world where war has torn apart
+                        the nation of Panem, resulting in the annual hunger games. Where a boy & girl are choosen to fight to 
+                        death against 11 other pairs from the other districts for the entertainment of the whole nation.
+                      </p>
+                    </div>
+                  </div>
             </div>
-            <div class="carousel-item">
-                <img src="img/external-content.duckduckgo.com.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
+            <div class="carousel-item" data-bs-interval="50000">
+                <div class="d-md-flex w-100">
+                    <div class="deal-img text-center">
+                      <img src="img/book-deal3.png" alt="Image" class="img-fluid" height="49.5%" width="49.5%">
+                    </div>
+                    <div class="banner-text">
+                      <h2 class="text-center">Enjoy 25% off select items for the Holiday Season!</h2>
+                      <p class="banner-p">
+                        Enjoy a sale of 25% off of select items for either digital, paperback, or hardback books. Sale lasts through December 25. Restrictions apply.
+                      </p>
+                    </div>
+                  </div>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
     <!-- End Carousel -->
 
@@ -204,7 +227,7 @@
     </section>
     <!-- End Newsletter Subscription Banner -->
 
-    <!-- Start New Book Card -->
+    <!-- Start New Book Cards -->
     <h2 class="new">New <b>Books</b></h2>
 
     <div class="row justify-content-around">
@@ -256,10 +279,10 @@
                     <div class='cvp'>
                         <h5 class="card-title font-weight-bold">The Island Child</h5>
                         <h6 class="card-author font-weight-bold">Molly Aitken</h6>
-                        <p class="card-text">$26.95</p> 
+                        <p class="card-text">$14.49 <small class="text-decoration-line-through">$16.00</small></p> 
                         <button type="button" class="btn details px-auto" data-bs-toggle="modal" data-bs-target="#detailModal2">view details</button>
 
-                        <!-- Book 1 Modal -->
+                        <!-- Book 2 Modal -->
                         <div class="modal right fade" id="detailModal2" tabindex="-1" role="dialog" aria-labelledby="detailModalLabel">
                             <div class="modal-dialog" role="document">
                               <div class="modal-content">
@@ -299,7 +322,7 @@
                     <div class='cvp'>
                         <h5 class="card-title font-weight-bold">Crossings</h5>
                         <h6 class="card-author font-weight-bold">Alex Landragin</h6>
-                        <p class="card-text">$14.99</p> 
+                        <p class="card-text">$14.99 <small class="text-decoration-line-through">$17.99</small></p> 
                         <button type="button" class="btn details px-auto" data-bs-toggle="modal" data-bs-target="#exampleModal3">view details</button>
 
                         <!-- Book 3 Modal -->
@@ -337,29 +360,32 @@
         <!-- Book 4 -->
         <div class='col-4'>
             <div class="card mx-auto col-md-3 col-10 mt-5"> 
-                <img class='mx-auto img-thumbnail book-cover' src="img/new-book1.jpg" width="50%" height="50%" />
+                <img class='mx-auto img-thumbnail book-cover' src="img/new-book4.jpg" width="50%" height="50%" />
                 <div class="card-body text-center mx-auto">
                     <div class='cvp'>
-                        <h5 class="card-title font-weight-bold">The Westing Game</h5>
-                        <h6 class="card-author font-weight-bold">Ellen Raskin</h6>
-                        <p class="card-text">$7.99</p> 
+                        <h5 class="card-title font-weight-bold">The Holiday Swap</h5>
+                        <h6 class="card-author font-weight-bold">Maggie Knox</h6>
+                        <p class="card-text">$14.49 <small class="text-decoration-line-through">$17.00</small></p> 
                         <button type="button" class="btn details px-auto" data-bs-toggle="modal" data-bs-target="#detailModal4">view details</button>
 
-                        <!-- Book 1 Modal -->
+                        <!-- Book 4 Modal -->
                         <div class="modal right fade" id="detailModal4" tabindex="-1" role="dialog" aria-labelledby="detailModalLabel">
                             <div class="modal-dialog" role="document">
                               <div class="modal-content">
                                 <div class="modal-header">
-                                  <h5 class="modal-title text-center" id="detailModalLabel">The Westing Game</h5>
+                                  <h5 class="modal-title text-center" id="detailModalLabel">The Holiday Swap</h5>
                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <img class='mx-auto img-thumbnail book-cover' src="img/new-book1.jpg" width="50%" height="50%" />
+                                    <img class='mx-auto img-thumbnail book-cover' src="img/new-book4.jpg" width="50%" height="50%" />
                                 </div>
                                 <div class="modal-body text-start">
-                                    This highly inventive mystery involves sixteen people who are invited to the reading of Samuel W. Westing's will. 
-                                    They could become millionaires-it all depends on how they play the tricky and dangerous Westing game, a game involving blizzards, burglaries, 
-                                    and bombings! Ellen Raskin has created a remarkable cast of characters in a puzzle-knotted, word-twisting plot filled with humor, intrigue, and suspense.
+                                    When chef Charlie Goodwin gets hit on the head on the L.A. set of her reality baking show, she loses a lot more than consciousness; she also loses her ability to taste and 
+                                    smell—both critical to her success as show judge. Meanwhile, Charlie's identical twin, Cass, is frantically trying to hold her own life together back in their quaint mountain
+                                    hometown while running the family's bustling bakery and dealing with her ex, who won't get the memo that they're over. With only days until Christmas, a desperate Charlie
+                                    asks Cass to do something they haven't done since they were kids: switch places. Looking for her own escape from reality, Cass agrees. But temporarily trading lives proves more 
+                                    complicated than they imagined, especially when rugged firefighter Jake Greenman and gorgeous physician assistant Miguel Rodriguez are thrown into the mix. Will the twins' identity swap be a 
+                                    recipe for disaster, or does it have all the right ingredients for getting their lives back on track? 
                                 </div>
                                 <div class="modal-footer">
                                   <button type="button" class="btn close" data-bs-dismiss="modal">Close</button>
@@ -377,32 +403,30 @@
         <!-- Book 5 -->
         <div class='col-4'>
             <div class="card mx-auto col-md-3 col-10 mt-5"> 
-                <img class='mx-auto img-thumbnail book-cover' src="img/new-book2.jpg" width="50%" height="50%" />
+                <img class='mx-auto img-thumbnail book-cover' src="img/new-book5.jpg" width="50%" height="50%" />
                 <div class="card-body text-center mx-auto">
                     <div class='cvp'>
-                        <h5 class="card-title font-weight-bold">The Island Child</h5>
-                        <h6 class="card-author font-weight-bold">Molly Aitken</h6>
-                        <p class="card-text">$26.95</p> 
+                        <h5 class="card-title font-weight-bold">Tom Clancy Chain of Command</h5>
+                        <h6 class="card-author font-weight-bold">Marc Cameron</h6>
+                        <p class="card-text">$20.96 <small class="text-decoration-line-through">$29.95</small></p> 
                         <button type="button" class="btn details px-auto" data-bs-toggle="modal" data-bs-target="#detailModal5">view details</button>
 
-                        <!-- Book 1 Modal -->
+                        <!-- Book 5 Modal -->
                         <div class="modal right fade" id="detailModal5" tabindex="-1" role="dialog" aria-labelledby="detailModalLabel">
                             <div class="modal-dialog" role="document">
                               <div class="modal-content">
                                 <div class="modal-header">
-                                  <h5 class="modal-title text-center" id="detailModalLabel">The Island Child</h5>
+                                  <h5 class="modal-title text-center" id="detailModalLabel">Tom Clancy Chain of Command</h5>
                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <img class='mx-auto img-thumbnail book-cover' src="img/new-book2.jpg" width="50%" height="50%" />
+                                    <img class='mx-auto img-thumbnail book-cover' src="img/new-book5.jpg" width="50%" height="50%" />
                                 </div>
                                 <div class="modal-body text-start">
-                                    Oona grew up on the island of Inis: a wind-blasted rock off the coast of Ireland where the men went out on fishing boats and the women tended turf fires; 
-                                    where the only book was the Bible; and where girls stayed at home until they became mothers themselves. The island was a gift for some, a prison for others.
-                                    Even as a child, Oona knew she wanted to leave, but she never could have anticipated the tumultuous turn of events that would ultimately compel her to flee. 
-                                    Now, after twenty years—after Oona has forged a new, very different life for herself—her daughter vanishes, forcing Oona to face her past in order, finally, 
-                                    to be free of it. Heralding a singularly gifted new voice in fiction, The Island Child is a timeless story of birth and betrayal, storms and shipwrecks and fairy children, 
-                                    and the weight of long-buried secrets.
+                                    A shadowy billionaire uses his fortune to further his corrupt ambitions. Along the way, he’s toppled democratically elected governments and exacerbated divisions within stable nations. 
+                                    The competitors he’s destroyed, the people he’s hurt, they’re all just marks on a ledger. Now, he’s ready to implement his most ambitious plan of all. There’s only one force standing in his way—President Jack Ryan.
+                                    How do you compel a man like Jack Ryan to bend? He’s personally faced down everything from the Russian navy to cartel killers. It will take more than political headwinds or media disfavor to cause him to turn from his 
+                                    duty to the American people, but every man has an Achilles heel. Jack Ryan’s is his family. The answer is as simple as it is shocking. The billionaire has assembled an international team of the most ruthless mercenaries alive. Their mission—kidnap the First Lady.
                                 </div>
                                 <div class="modal-footer">
                                   <button type="button" class="btn close" data-bs-dismiss="modal">Close</button>
@@ -420,32 +444,29 @@
         <!-- Book 6 -->
         <div class='col-4'>
             <div class="card mx-auto col-md-3 col-10 mt-5"> 
-                <img class='mx-auto img-thumbnail book-cover' src="img/new-book3.jpg" width="50%" height="50%" />
+                <img class='mx-auto img-thumbnail book-cover' src="img/new-book6.jpg" width="50%" height="50%" />
                 <div class="card-body text-center mx-auto">
                     <div class='cvp'>
-                        <h5 class="card-title font-weight-bold">Crossings</h5>
-                        <h6 class="card-author font-weight-bold">Alex Landragin</h6>
-                        <p class="card-text">$14.99</p> 
+                        <h5 class="card-title font-weight-bold">Treasures Lost, Treasures Found</h5>
+                        <h6 class="card-author font-weight-bold">Nora Roberts</h6>
+                        <p class="card-text">$6.99 </p> 
                         <button type="button" class="btn details px-auto" data-bs-toggle="modal" data-bs-target="#exampleModal6">view details</button>
 
-                        <!-- Book 3 Modal -->
+                        <!-- Book 6 Modal -->
                         <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                               <div class="modal-content">
                                 <div class="modal-header">
-                                  <h5 class="modal-title text-center" id="exampleModalLabel">Crossings</h5>
+                                  <h5 class="modal-title text-center" id="exampleModalLabel">Treasures Lost, Treasures Found</h5>
                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <img class='mx-auto img-thumbnail book-cover' src="img/new-book3.jpg" width="50%" height="50%" />
+                                    <img class='mx-auto img-thumbnail book-cover' src="img/new-book6.jpg" width="50%" height="50%" />
                                 </div>
                                 <div class="modal-body text-start">
-                                    On the brink of the Nazi occupation of Paris, a German-Jewish bookbinder stumbles across a manuscript called Crossings. 
-                                    It has three narratives, each as unlikely as the next. And the narratives can be read one of two ways: either straight through or according to an alternate chapter sequence.
-                                    The first story in Crossings is a never-before-seen ghost story by the poet Charles Baudelaire, penned for an illiterate girl. 
-                                    Next is a noir romance about an exiled man, modeled on Walter Benjamin, whose recurring nightmares are cured when he falls in love with a storyteller who draws him into a dangerous intrigue of rare manuscripts, 
-                                    police corruption, and literary societies. Finally, there are the fantastical memoirs of a woman-turned-monarch whose singular life has spanned seven generations.
-                                    With each new chapter, the stunning connections between these seemingly disparate people grow clearer and more extraordinary. Crossings is an unforgettable adventure full of love, longing and empathy.
+                                    Kate Hardesty’s late father spent his life exploring the waters around North Carolina’s Ocracoke Island, hunting for sunken treasure. Now, it has fallen to his daughter to
+                                    decipher his detailed notes, charts, and maps to complete his quest—but Kate knows she needs the help of deep-sea diver Ky Silver. Once, she’d given him her heart, only to break his when she left the island. 
+                                    That was four years ago, and Ky’s the only one she can trust to help her locate the gold. Reunited, Kate and Ky’s search rekindles their passion and recovers something between them even more priceless than a lost treasure.
                                 </div>
                                 <div class="modal-footer">
                                   <button type="button" class="btn close" data-bs-dismiss="modal">Close</button>
@@ -461,7 +482,7 @@
             </div>
         </div>
     </div>
-    <!-- End New Book Card -->
+    <!-- End New Book Cards -->
 
     <!-- Start Footer -->
     <div class="container-fluid pb-0 mb-0 justify-content-center text-light footer">
@@ -470,12 +491,12 @@
                 <div class="col-12">
                     <div class="row row-2">
                         <div class="col-sm-3 text-md-center">
-                            <h5 class="logo"><span> <i class="fa fa-firefox text-light" aria-hidden="true"></i></span><b> ____</b></h5>
+                            <img src="img/logo.png" class="logo" alt="" width="100px" height="100px">
                         </div>
                         <div class="col-sm-3 my-sm-0 mt-5">
                             <ul class="list-unstyled">
                                 <li class="footer-section">ABOUT US</li>
-                                <li class="mt-0">About ____</li>
+                                <li class="mt-0">About <span class="fst-italic fw-bold">The Big Bookshelf</span> </li>
                                 <li>Company Philosophy</li>
                                 <li>Careers</li>
                             </ul>
@@ -508,10 +529,26 @@
             <div class="row justify-content-center mt-0 pt-0 row-1 mb-0 px-sm-3 px-2">
                 <div class="col-12">
                     <div class="row my-4 row-1 no-gutters">
-                        <div class="col-sm-3 col-auto text-center"><small>&#9400; Randeep Singh</small></div>
+                        <div class="col-sm-3 col-auto text-center"><small>&#9400; Randeep Singh &nbsp;|&nbsp; 
+                            All book covers and book information taken from <a href="https://www.barnesandnoble.com/" class="link">Barnes & Noble</a>
+                        </small></div>
                         <div class="col-md-3 col-auto "></div>
                         <div class="col-md-3 col-auto"></div>
-                        <div class="col my-auto text-md-left text-right "> <small> ra.singh0502@gmail.com <span><img src="https://i.imgur.com/TtB6MDc.png" class="img-fluid " width="25"></span> <span><img src="https://i.imgur.com/N90KDYM.png" class="img-fluid " width="25"></span></small> </div>
+                        <div class="col my-auto text-md-left text-right"> 
+                            <small> 
+                                <a href="mailto:ra.singh0502@gmail.com" class="link">ra.singh0502@gmail.com</a> &nbsp;|&nbsp;
+                                
+                                <a href="https://github.com/RaSingh02" class="link"> 
+                                    GitHub
+                                </a>
+                            
+                                <a href="https://github.com/RaSingh02" class="link github-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                </a>
+                        </small> 
+                    </div>
                     </div>
                 </div>
             </div>
